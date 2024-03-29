@@ -6,7 +6,7 @@ const User = require('./models/User');
 const Course =require('./models/Course')
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const URL = "mongodb://localhost:27017/freecodecamp";
+const URL = "mongodb+srv://aryashanish:9525633767@cluster0.j7tl5vl.mongodb.net/freecodecamp?retryWrites=true&w=majority";
 
 const app = express();
 const PORT = 5000;
